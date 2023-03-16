@@ -26,7 +26,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = os.environ['DEBUG']
 
-DEBUG ='WESITE_HOSTNAME' not in os.environ
+DEBUG = 'WEBSITE_HOSTNAME' not in os.environ
 
 if DEBUG:
     ALLOWED_HOSTS = []
